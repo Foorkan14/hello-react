@@ -1,4 +1,8 @@
 # Hello React
 ## React Exercise Example Solutions
 
-![Calculator](./img/calculator.gif)
+### Calculator
+<br />
+<br />
+
+![](./img/calculator.gif)
