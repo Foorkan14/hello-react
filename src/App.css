@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+    width: 3rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10%;
+    background-color: rgb(192, 192, 192);
+    margin: .2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.calculator-body {
+    width: 17.3rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;   
+    height: 30rem; 
+    padding: 0 1.3rem;
+    background-color: rgb(241, 240, 240);
+    border-radius: 1rem;
+    margin: 7rem;
 }
 
-.App-link {
-  color: #61dafb;
+.result-container {
+    border-radius: 1rem;
+    background-color: #333;
+    width: 100%;
+    margin: 1rem 0;
+    height: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.result {
+    display: flex;
+    flex-flow: column;
+    margin: 1rem;
+    font-family: "Orbitron", sans-serif;
+    color: #fff
 }
